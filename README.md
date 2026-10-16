@@ -77,7 +77,3 @@ This first version detects explicit source markers; it does not claim to perform
 npm test
 node src/cli.js --help
 ```
-
-## License
-
-MIT
