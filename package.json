@@ -1,0 +1,16 @@
+{
+  "name": "gibwork-devops-toolkit",
+  "version": "1.0.0",
+  "private": false,
+  "description": "A terminal-first repository triage and bounty preparation workflow for Gibwork.",
+  "type": "module",
+  "bin": { "gibtriage": "./src/cli.js" },
+  "scripts": {
+    "start": "node src/cli.js",
+    "test": "node --test",
+    "triage": "node src/cli.js triage .",
+    "doctor": "node src/cli.js doctor"
+  },
+  "engines": { "node": ">=22" },
+  "license": "MIT"
+}
